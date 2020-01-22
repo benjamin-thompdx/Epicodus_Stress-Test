@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Stress Test</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Stress Test</h2>
+    </div>
+    <form id="stress-test">
+      <div class="form-group">
+        <p>Check if you've done the following:</p>
+        <input type="checkbox" name="warning-signs" value="warning1">I frequently bring work home at night<br>
+        <input type="checkbox" name="warning-signs" value="warning2">Not enough hours in the day to do all the things that I must do<br>
+        <input type="checkbox" name="warning-signs" value="warning3">I deny or ignore problems in the hope that they will go away<br>
+        <input type="checkbox" name="warning-signs" value="warning4">I do the jobs myself to ensure they are done properly<br>
+        <input type="checkbox" name="warning-signs" value="warning5">I underestimate how long it takes to do things<br>
+        <input type="checkbox" name="warning-signs" value="warning6">I feel that there are too many deadlines in my work / life that are difficult to meet<br>
+        <input type="checkbox" name="warning-signs" value="warning7">My self confidence / self esteem is lower than I would like it to be<br>
+        <input type="checkbox" name="warning-signs" value="warning8">I frequently have guilty feelings if I relax and do nothing<br>
+        <input type="checkbox" name="warning-signs" value="warning9">I find myself thinking about problems even when I am supposed to be
+        relaxing<br>
+        <input type="checkbox" name="warning-signs" value="warning10">I feel fatigued or tired even when I wake after an adequate sleep<br>
+      </div>
+      <div class="form-group">
+        <p>Check if you've experienced the following symptoms:</p>
+        <input type="checkbox" name="health-symptoms" value="health1">Low energy<br>
+        <input type="checkbox" name="health-symptoms" value="health2">Headaches<br>
+        <input type="checkbox" name="health-symptoms" value="health3">Upset stomach<br>
+        <input type="checkbox" name="health-symptoms" value="health4">Aches, pains, and tense muscles<br>
+        <input type="checkbox" name="health-symptoms" value="health5">Chest pain and rapid heartbeat<br>
+        <input type="checkbox" name="health-symptoms" value="health6">Insomnia<br>
+        <input type="checkbox" name="health-symptoms" value="health7">Frequent colds and infections<br>
+        <input type="checkbox" name="health-symptoms" value="health8">Loss of sexual desire and/or ability<br>
+        <input type="checkbox" name="health-symptoms" value="health9">Nervousness and shaking, ringing in the ear, cold or sweaty hands and feet<br>
+        <input type="checkbox" name="health-symptoms" value="health10">Dry mouth and difficulty swallowing<br>
+      </div>
+      <div class="form-group">
+        <p>Check if you've attempted the following coping methods:</p>
+        <input type="checkbox" name="coping-methods" value="coping1">Exercise<br>
+        <input type="checkbox" name="coping-methods" value="coping2">Write in a journal<br>
+        <input type="checkbox" name="coping-methods" value="coping3">Draw<br>
+        <input type="checkbox" name="coping-methods" value="coping4">Listen to music<br>
+        <input type="checkbox" name="coping-methods" value="coping5">Take a bath<br>
+        <input type="checkbox" name="coping-methods" value="coping6">Play with a pet<br>
+        <input type="checkbox" name="coping-methods" value="coping7">Spend time in nature<br>
+        <input type="checkbox" name="coping-methods" value="coping8">Clean the house (or a closet, drawer, or area)<br>
+        <input type="checkbox" name="coping-methods" value="coping9">Read a book<br>
+        <input type="checkbox" name="coping-methods" value="coping10">Meditate<br>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+    <span id="highstress">
+      <h1>HIGH STRESS</h1>
+    </span>
+    <span id="lowstress">
+        <h1>LOW STRESS</h1>
+      </span>
+      <span id="goodjob">
+          <h1>Good job...</h1>
+        </span>
+  </div>
+</body>
+
+</html>
